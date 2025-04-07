@@ -465,7 +465,7 @@ header .search-form label {
 
 .blogs .box-container {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(26rem, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(30rem, 1fr));
   gap: 1.5rem;
 }
 
@@ -539,30 +539,62 @@ header .search-form label {
 .footer .box-container .box h3 i{
 color: var(--green);
 }
-.footer .box-container .box  a{
+.footer .box-container .box  .links{
   display: block;
   font-size: 1.5rem;
   color: var(--lighting-color);
   padding: 1rem 0;
 }
+.footer .box-container .box .links i{
+  color: var(--green);
+  padding-right: .5rem;
+  }
 .footer .box-container .box  p {
 line-height: 1.8;
 font-size: 1.5rem;
 color: var(--lighting-color);
 padding: 1rem 0;
 }
-.footer .box-container .box a i{
+.footer .box-container .box .links i{
   color: var(--green);
-  padding-right: .5rem;
+  padding-right: 2rem;
   }
-  .footer .box-container .box a:hover i{ 
+  .footer .box-container .box .links:hover i{ 
     padding-right: 2rem;
     }
     .footer .box-container .box .share a{
    height: 4rem;
    width: 4rem;
-   
-    }
+   line-height: 4rem;
+   border-radius: .5rem;
+   font-size: 2rem;
+   color: var(--black);
+   margin-left: .2rem;
+   background: #eee;
+text-align: center;    }
+.footer .box-container .box .share a:hover{
+  background: var(--green);
+  color: #fff;
+}
+.footer .box-container .box .email{
+  width: 100%;
+  margin: 7rem 0;
+  padding: 1rem;
+  border-radius: .5rem;
+  bakcground:#eee;
+  font-size: 1.6rem;
+  color: var(--black);
+  text-transform: none;
+}
+.copyright{
+  text-align: center;
+  margin-top: 2rem;
+  padding: 1rem;
+ padding-top: 2.5rem;
+ font-size: 2rem;
+ color: var(--black);
+
+}
 
 
 @media (max-width: 991px) {
