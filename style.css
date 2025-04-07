@@ -500,19 +500,18 @@ header .search-form label {
   font-size: 1.5rem;
 }
 
-.blogs .box-container .box .content .icons a:hover {
-  color: var(--black);
-}
-
 .blogs .box-container .box .content .icons a i {
   color: var(--green);
   padding-right: .5rem;
+}
+.blogs .box-container .box .content .icons a:hover {
+  color: var(--black);
 }
 
 .blogs .box-container .box .content h3 {
   line-height: 1.8;
   color: var(--black);
-  font-size: 2.2rem;
+  font-size: 1.5rem;
   padding: .5rem 0;
 }
 
@@ -554,6 +553,7 @@ line-height: 1.8;
 font-size: 1.5rem;
 color: var(--lighting-color);
 padding: 1rem 0;
+
 }
 .footer .box-container .box .links i{
   color: var(--green);
@@ -563,15 +563,12 @@ padding: 1rem 0;
     padding-right: 2rem;
     }
     .footer .box-container .box .share a{
-   height: 4rem;
-   width: 4rem;
-   line-height: 4rem;
-   border-radius: .5rem;
-   font-size: 2rem;
-   color: var(--black);
-   margin-left: .2rem;
-   background: #eee;
-text-align: center;    }
+    
+      font-size: 2.4rem;
+      color: var(--black);
+      margin-left: 2rem;
+      background: #eee;
+   text-align: center;    }
 .footer .box-container .box .share a:hover{
   background: var(--green);
   color: #fff;
