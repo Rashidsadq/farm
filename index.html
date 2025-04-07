@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>farmStore</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <header class="header">
+    <a href="#" class="logo"><i class="fas fa-shopping-basket"></i> farmStore</a>
+
+    <nav class="navbar">
+      <a href="#home">home</a>
+      <a href="#features">features</a>
+      <a href="#products">products</a>
+      <a href="#categories">categories</a>
+      <a href="#review">review</a>
+      <a href="#blogs">blogs</a>
+    </nav>
+
+    <div class="icons">
+      <div class="fas fa-bars" id="menu-btn"></div>
+      <div class="fas fa-search" id="search-btn"></div>
+      <div class="fas fa-shopping-cart" id="cart-btn"></div>
+      <div class="fas fa-user" id="login-btn"></div>
+    </div>
+
+    <form action="" class="search-form">
+      <input type="search" id="serach-box" placeholder="search here..">
+      <label for="serach-box" class="fas fa-search"></label>
+    </form>
+
+    <div class="shopping-cart">
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/wheat.jpg" alt="">
+        <div class="content">
+          <h3>wheat</h3>
+          <span class="price">1.4$/-</span>
+          <span class="quantity">qty: 1</span>
+        </div>
+      </div>
+      <div class="total">total: $16.99/-</div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/milk.jpg" alt="">
+        <div class="content">
+          <h3>milk</h3>
+          <span class="price">1.4$/-</span>
+          <span class="quantity">qty: 1</span>
+        </div>
+      </div>
+      <div class="total">total: $16.99/-</div>
+      <div class="box">
+        <i class="fas fa-trash"></i>
+        <img src="images/corn.jpg" alt="">
+        <div class="content">
+          <h3>corn</h3>
+          <span class="price">1.4$/-</span>
+          <span class="quantity">qty: 1</span>
+        </div>
+      </div>
+      <div class="total">total: $16.99/-</div>
+      <a href="#" class="btn">checkout</a>
+      
+    </div>
+    <form action="" class="login-form">
+      <h3>login now</h3>
+      <input type="email" placeholder="Enter your email address" class="box">
+     <input type="password" placeholder="Enter your password " class="box">
+     <p>forget your password <a href="#">click here</a></p>
+     <p>don't have an account <a href="#">create now</a></p>
+     <input type="submit" value="login now" class="btn">
+    </form>
+  </header> 
+<section class="home" id="home">
+<div class="content"><h1>Welcome to Farming Store</h1>
+ <p>Clean,<span>natural</span>, and farm-fresh supplies.</p>
+ <a href="#" class="btn">shop now</a>
+</div>
+</section>
+<section class="features" id="features">
+<h1 class="heading"><span>our features</span></h1>
+<div class="box-container">
+<div class="box">
+<img src="images/dairyproduct.jpg" alt="">
+<h3>fresh and new dairy products</h3>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+<a href="#" class="btn">read more</a>
+</div>
+<div class="box">
+  <img src="images/cash.jpg" alt="">
+  <h3>Cash on Delivery</h3>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+  <a href="#" class="btn">read more</a>
+  </div>
+  <div class="box">
+    <img src="images/freedilvery.jpg" alt="">
+    <h3>free Delivery</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore.</p>
+    <a href="#" class="btn">read more</a>
+    </div>
+
+
+</div>
+
+
+</section>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
